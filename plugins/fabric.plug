@@ -1,0 +1,9 @@
+[Core]
+Name = fabric
+Module = fabric
+
+[Documentation]
+Description = wrapper for fabric commands
+
+[Python]
+Version = 2

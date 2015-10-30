@@ -118,16 +118,16 @@ BOT_IDENTITY = {
     # 'endpoint' : 'https://api.hipchat.com'
 
     ## Slack mode (comment the others above if using this mode)
-    'token': 'xoxb-13537361268-DOwKLzr1Br9WI6i0N4wRpq9s',
+    # 'token': 'xoxb-....',
 
     ## Telegram mode (comment the others above if using this mode)
     # 'token': '103419016:AAbcd1234...',
 
     ## IRC mode (Comment the others above if using this mode)
-    # 'nickname' : 'err-chatbot',
+    # 'nickname': 'err-dvl',
     # 'username' : 'err-chatbot',    # optional, defaults to nickname if omitted
     # 'password' : None,             # optional
-    # 'server' : 'irc.freenode.net',
+    # 'server': 'irc.freenode.net',
     # 'port': 6667,                  # optional
     # 'ssl': False,                  # optional
     # 'nickserv_password': None,     # optional
@@ -136,13 +136,17 @@ BOT_IDENTITY = {
 # Set the admins of your bot. Only these users will have access
 # to the admin-only commands.
 #
-BOT_ADMINS = ('gbin@localhost',)
+BOT_ADMINS = (
+    'andre.santos',
+)
 
 # Chatrooms your bot should join on startup. For the IRC backend you
 # should include the # sign here. For XMPP rooms that are password
 # protected, you can specify another tuple here instead of a string,
 # using the format (RoomName, Password).
-CHATROOM_PRESENCE = ('err@conference.server.tld',)
+CHATROOM_PRESENCE = (
+    '#general',
+)
 
 # The FullName, or nickname, your bot should use. What you set here will
 # be the nickname that Err shows in chatrooms. Note that some XMPP
